@@ -1,0 +1,8 @@
+干净人工数据：clean.mat
+添加footprint噪声：ori.mat
+
+步骤：
+1、生成人工数据与小波变换 ：运行First_art_waveF.m 输出 art_440_400_50_Wf.mat
+2、给数据升维：运行second_art_AddD.py 输出 art_440_400_50_1_f_W.npy
+3、主程序训练与测试：运行Third_art_foot_W.ipynb  输出 recover_440_400_50_1f_W,mat
+4、逆小波变换：运行Fourth_art_waveF_recover.m 输出结果our_recover.mat，our_noise.mat

@@ -1,0 +1,7 @@
+真实数据：Kerry3D_40_400_150_ori.mat
+
+步骤：
+1、小波变换 ：运行First_kerry_wave.m 输出 kerry_440_400_50_W.mat
+2、给数据升维：运行second_kerry_AddD.py 输出 kerry_440_400_50_1_W.npy
+3、主程序训练与测试：运行Thrid_kerry_W.ipynb  输出 recover_440_400_50_W.mat
+4、逆小波变换：运行Fourth_kerry_wave_recover.m 输出结果our_recover.mat，our_noise.mat
